@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 1;
+  background-color: rgb(255, 230, 230)
+}
+
+/* Style the header */
+.header {
+  background-color: rgb(255, 168, 168);
+  padding: 10px;
+  text-align: center;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+
+
+}
+
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
+p:hover {
+	color: rgb(197, 191, 191);
+
+a{}
+a {
+	font-size: 20px;
+}
+a:hover {
+	transform: scale(1.2);
+	transition-duration: 0.4s;
+	color: black;
+}
+
+/*okay now im scared imma mess it up*/
+/* im gonna paste to my own replit for tomorrow just incase
+/*your gonna paste all the stuff from here? that's a safe choice sir :) goodlol
+/*lmk when u finish*/
+/*imma save it then*/
+/*I pasted it to my own*/
