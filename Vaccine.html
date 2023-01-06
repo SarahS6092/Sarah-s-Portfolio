@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link rel="icon" type="image/png" href="https://www.drupal.org/favicon.ico">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Project Covid</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <style>
+		.container {
+			position: relative;
+			width: 50%;
+		}
+
+		.image {
+			opacity: 1;
+			display: block;
+			width: 100%;
+			height: auto;
+			transition: .5s ease;
+			backface-visibility: hidden;
+		}
+
+		.middle {
+			transition: .5s ease;
+			opacity: 0;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			-ms-transform: translate(-50%, -50%);
+			text-align: center;
+		}
+
+		.container:hover .image {
+			opacity: 0.3;
+		}
+
+		.container:hover .middle {
+			opacity: 1;
+		}
+
+		.text {
+			background-color: #23293B;
+			color: white;
+			font-size: 20px;
+			padding: 16px 32px;
+		}
+    </style>
+  </head>
+
+  <body>
+     <center>
+       	<img src="https://tdem.texas.gov/wp-content/uploads/2020/03/Covid-Banner-1024x259.jpg" alt="baner" width="570"> 
+		<div class="header">
+		</div>
+		<div class="topnav">
+
+			<a href="index.html">  Home </a>
+			<a href="Masks.html">About Masks</a>
+			<a href="https://en.wikipedia.org/wiki/COVID-19_pandemic">Looking back</a>
+    	<a href="Help.html">  Help </a>
+		</div>
+    <div class="container">
+  <img src="https://www.drupal.org/favicon.ico" alt="Avatar" class="image" style="width:17%">
+  <div class="middle">
+    <div class="text"> For more information regarding vaccines go to: <a href="https://www.cdc.gov/coronavirus/2019-ncov/php/vaccination.html"> CDC </a>
+    </div>
+  </div>
+    <br>
+      <h1 class="help"> Vaccines </h1>
+      <table border="5" bordercolor="black">
+          <tr>
+          <th><a> Your Doctor's office </a></th>
+					<th><a> Pharmacies</a></th>
+					<th><a> Health centers </a></th>
+          </tr>
+          <td>
+            <a> If you have a doctor who you see regularly, you can schedule an appointment to talk about vaccines you and your family may need and to get vaccinated. </a>
+          </td>
+          <td>
+            <a> Many local pharmacies offer most recommended vaccines for adults. If you plan on getting vaccinated at a pharmacy, consider calling ahead to find out if the pharmacy has the vaccine you need. Ask what you will need to pay. Many vaccines are covered by health insurance. But if you don’t have insurance, try calling a few pharmacies and ask what they charge for vaccines.</a>
+          </td>
+          <td>
+            <a> Federally funded health centers provide a variety of health care services, including vaccination. You can go to a health center even if you don’t have health insurance; And some may offer sliding fees based on your income.</a>
+          </td>
+      </table>
+
+      
+   </center>
+
+  </body>
+
+</html>

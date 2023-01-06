@@ -4,12 +4,13 @@
 
 body {
   margin: 1;
-  background-color: rgb(255, 151, 151)
+  background-color: rgb(214, 214, 214)
 }
+
 
 /* Style the header */
 .header {
-  background-color: rgb(255, 168, 168);
+  background-color: rgb(214, 214, 214);
   padding: 10px;
   text-align: center;
 font-family:Verdana, Geneva, Tahoma, sans-serif;
@@ -37,7 +38,7 @@ font-family:Verdana, Geneva, Tahoma, sans-serif;
 
 /* Change color on hover */
 .topnav a:hover {
-  background-color: rgb(243, 204, 204);
+  background-color: rgb(209, 209, 209);
   color: black;
 }
 
@@ -108,35 +109,37 @@ background-size: 1800% 1800%;
     100%{background-position:0% 82%}
 }
 
+.help:hover {
+color: rgb(96, 177, 231);
+transform: scale(1.2);
+transition-duration: 0.4s;
+}
 
-/*okay now im scared imma mess it up*/
-/* im gonna paste to my own replit for tomorrow just incase
-/*your gonna paste all the stuff from here? that's a safe choice sir :) goodlol
-/*lmk when u finish*/
-/*imma save it then*/
-/*I pasted it to my own*/
-/*i did it homie, u see it?
-/* yes :) 
-/*see u tmmr
-k
-hi homie:) say hi back bro
-every time u say homie I imagine its pablo from the corner deli
-Idk who but say hi homie back
-hi homie
-ty hehe
-justin u wanna change the fonts for the row and column css
-idk: heres the repl a did stuff on https://beep.jn213.repl.co/
-The rainbow is back
-OMH
-djcjcjc
-YAY: 
-stop that made me so happy
-can u add it to our repl 
-sure
-lmfao you deleted the images 
+table { 
+	border-radius: 8px;
+}
 
-the two i added
-i'll add them again
+.container:hover {
+  animation: shake 0.0s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
 
-it doesn't even look like a homepage :/
-save it
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
